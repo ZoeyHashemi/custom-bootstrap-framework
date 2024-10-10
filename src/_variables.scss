@@ -1,1 +1,31 @@
+$primary-color: #CAD2C5;      // Primary theme color
+$secondary-color: #84A98C;    // Secondary theme color- use for buttons
+$background-color: #ecf0ed;  // Background color for the body
+$accent-color: #52796F;      // Color for  hovering  buttons
+$text-color: #354F52;        // Default text color
+$footer-color: #2F3E46;   //Background color for the footnote
 
+// Font Variables
+$font-family: 'Helvetica Neue';   // Headings font family
+$font-size-base: 16px;       // Base font size for body text
+$font-size-large: 1.5rem;    // Font size for large headings
+$font-size-small: 0.875rem;  // Smaller font size for footnotes
+$font-weight-normal: 400;         // Normal font weight
+$font-weight-bold: 700;           // Bold font weight
+
+// Spacing Variables
+$padding-base: 1rem;                 // Default padding
+$margin-base: 1rem;                  // Default margin
+
+// Border Radius
+$border-radius: 4px;                 // Default border radius for buttons and inputs
+
+// Shadows
+$box-shadow-light: 0 1px 3px rgba(11, 42, 21, 0.1); // Light shadow for cards and buttons
+$box-shadow-medium: 0 2px 5px rgba(31, 69, 14, 0.45); // Medium shadow for elevated elements
+
+// Media Query Breakpoints
+$breakpoint-sm: 576px;            // Small devices (phones)
+$breakpoint-md: 768px;            // Medium devices (tablets)
+$breakpoint-lg: 992px;            // Large devices (desktops)
+$breakpoint-xl: 1200px;           // Extra large devices (larger desktops)

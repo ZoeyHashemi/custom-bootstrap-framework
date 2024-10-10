@@ -1,1 +1,12 @@
+// functions.scss
+
+// Function to darken a color
+@function darken-color($color, $amount) {
+    @return mix(black, $color, $amount); // Returns a darkened color
+}
+
+// Function to lighten a color
+@function lighten-color($color, $amount) {
+    @return mix(white, $color, $amount); // Returns a lightened color
+}
 
