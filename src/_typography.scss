@@ -1,1 +1,41 @@
+// typography.scss
 
+// i have defined my variables for the typography, here we have adjustments to each heading tag and the body text, and also provided a new font family default. Also adding font weight and heigh to the heading tags to make them pop out more.
+$font-family-default: "Times New Roman", Times, serif;
+$font-size-body: 1em;
+$font-size-h1: 2em;
+$font-size-h2: 1.5em;
+$font-size-h3: 1.3em;
+$font-weight-h1: 700;
+$font-weight-h2: 600;
+$font-weight-h3: 500;
+$line-height-h1: 1.2;
+$line-height-h2: 1.3;
+$line-height-h3: 1.4;
+
+// applying the styles
+body, p {
+  font-family: $font-family-default;
+  font-size: $font-size-body;
+}
+
+h1 {
+  font-family: $font-family-default;
+  font-size: $font-size-h1;
+  font-weight: $font-weight-h1;
+  line-height: $line-height-h1;
+}
+
+h2 {
+  font-family: $font-family-default;
+  font-size: $font-size-h2;
+  font-weight: $font-weight-h2;
+  line-height: $line-height-h2;
+}
+
+h3 {
+  font-family: $font-family-default;
+  font-size: $font-size-h3;
+  font-weight: $font-weight-h3;
+  line-height: $line-height-h3;
+}
