@@ -90,3 +90,23 @@
     padding: calc(2 * $padding-base);
 }
 
+//cminosora utilities
+
+h1 {
+  transition: color 0.3s ease-in-out;
+}
+
+h2 {
+  transition: color 0.3s ease-in-out;
+}
+
+h3 {
+  transition: color 0.3s ease-in-out;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+  color: invert($primary-color);
+}
+
