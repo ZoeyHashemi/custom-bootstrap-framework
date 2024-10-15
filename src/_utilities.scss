@@ -1,3 +1,61 @@
+.text-primary {
+  color: $primary-color;
+}
+.text-secondary {
+  color: $secondary-color;
+}
+.bg-primary {
+    background-color: $primary-color;
+  }
+.bg-secondary {
+    background-color: $secondary-color;
+  }
+
+
+.fw-bold {
+    font-weight: $font-weight-bold;
+  }
+.fw-normal {
+    font-weight: $font-weight-normal;
+  }
+.fs-large {
+    font-size: $font-size-large;
+  }
+.fs-small {
+    font-size: $font-size-small;
+  }
+
+
+.m-1 {
+    margin: calc(0.5 * $margin-base); 
+  }
+  
+.m-2 {
+    margin: calc(1 * $margin-base); 
+  }
+  
+.p-1 {
+    padding: calc(0.5 * $margin-base); 
+  }
+  
+.p-2 {
+    padding: calc(1 * $margin-base); 
+  }
+
+
+.border-rounded {
+    border-radius: $border-radius;
+  }
+.border-none {
+    border: none;
+  }
+.border-primary {
+    border: 2px solid $primary-color;
+  }
+.border-secondary {
+    border: 2px solid $secondary-color;
+  }
+
 // Margins
 .m-1 {
     margin: calc(0.5 * $margin-base);
@@ -31,3 +89,4 @@
 .p-4 {
     padding: calc(2 * $padding-base);
 }
+
