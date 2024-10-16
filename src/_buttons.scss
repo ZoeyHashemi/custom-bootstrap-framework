@@ -7,7 +7,7 @@ $button-background-color: $secondary-color;
 $button-color: #000000;
 $button-transition-duration: 0.3s;
 
-button {
+button, .btn {
     display: inline-block;
     padding: $button-padding;
     border: none;
