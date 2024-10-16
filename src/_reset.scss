@@ -1,1 +1,62 @@
+/* reset.scss */
+
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set default font styles */
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+}
+
+/* Reset heading styles */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Reset list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Reset image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Reset link styles */
+a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}
+
+/* Reset button styles */
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Reset form elements */
+input, textarea, select {
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+
 

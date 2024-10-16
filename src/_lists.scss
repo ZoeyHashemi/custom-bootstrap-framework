@@ -8,20 +8,3 @@ ol {
     list-style-type: $ol-list-style-type;
     @include list-default;
 }
-
-table {
-    width: 100%;
-    margin: $margin-base;
-    padding: $padding-base;
-}
-
-table, thead, th, td, tr {
-    border: 2px solid $primary-color;
-}
-
-tr {
-    color: $text-color;
-    font-family: $font-family;
-    font-size: $font-size-base;
-    font-weight: $font-weight-normal;
-}

@@ -1,1 +1,41 @@
+//Forms (inputs, selects, textareas) → _forms.scss - cminosora
+// i have put stylings on the input options, button options and how the cursor will interact with the button. Also added a hover effect to the button to make it more interactive. 
+$input-border: 1px solid #75c2de;
+$input-border-radius: 4px;
+$input-padding: 10px;
+$button-background-color: #61d665;
+$button-border: none;
+$button-color: rgb(0, 0, 0);
+$button-padding: 15px 32px;
+$button-text-align: center;
+$button-text-decoration: none;
+$button-display: inline-block;
+$button-font-size: 15px;
+$button-margin: 4px 2px;
+$button-cursor: pointer;
+
+// Apply styles
+.custom-input[type=text], select, textarea {
+  width: 100%;
+  padding: $input-padding;
+  border: $input-border;
+  border-radius: $input-border-radius;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.custom-button[type=submit] {
+  background-color: $secondary-color ;
+  color: $button-color;
+  padding: $button-padding;
+  border: $button-border;
+  border-radius: $input-border-radius;
+  margin-bottom: 20px;
+  cursor: $button-cursor;
+  &:hover {
+     // Color for  hovering  buttons
+background-color:$accent-color ;
+  }
+}
 

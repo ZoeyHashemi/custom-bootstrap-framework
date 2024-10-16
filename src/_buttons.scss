@@ -1,1 +1,26 @@
+// Button styles cminosora
+@import '_variables.scss'; // call the variables file to use its variables
+
+$button-padding: 10px 20px;
+$button-border-radius: 4px;
+$button-background-color: $secondary-color;
+$button-color: #000000;
+$button-transition-duration: 0.3s;
+
+button, .btn {
+    display: inline-block;
+    padding: $button-padding;
+    border: none;
+    border-radius: $button-border-radius;
+    background-color: $button-background-color;
+    color: $button-color;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color $button-transition-duration ease;
+
+    &:hover {
+        background-color: darken($button-background-color, 10%);
+    }
+}
 

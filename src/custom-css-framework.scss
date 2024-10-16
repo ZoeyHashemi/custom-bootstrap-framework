@@ -1,12 +1,28 @@
+//Import Reset
+@import 'reset';
+
 // Import Variables
 @import 'variables';
 
 // Import Typography - cminosora
 @import 'typography';
+ // Import buttons
+@import 'buttons';
+
+//Import Forms
+@import 'forms';
 
 // Import Mixins
 @import 'mixins';
 
+//Import lists
+@import 'lists';
+
+//Import tables
+@import 'tables';
+
+//Import Utilities
+@import 'utilities';
 
 // Custom styles
 body {
@@ -28,8 +44,14 @@ body {
 .site-footer {
     background-color: $footer-color;
     padding: 20px 0;
-    &__copyright{
-        color: $background-color;
+
+    &__copyright {
+        color: $background-color; 
     }
 
+    .newsletter {
+        &__heading {
+            color:$background-color
+        }
+    }
 }
