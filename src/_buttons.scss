@@ -10,7 +10,6 @@ $button-transition-duration: 0.3s;
 button, .btn {
     display: inline-block;
     padding: $button-padding;
-    margin: 10px;
     border: none;
     border-radius: $button-border-radius;
     background-color: $button-background-color;
@@ -19,11 +18,8 @@ button, .btn {
     text-decoration: none;
     cursor: pointer;
     transition: background-color $button-transition-duration ease;
+
     &:hover {
-    -webkit-border-radius: $button-border-radius;
-    -moz-border-radius: $button-border-radius;
-    -ms-border-radius: $button-border-radius;
-    -o-border-radius: $button-border-radius;
         background-color: darken($button-background-color, 10%);
     }
 }
