@@ -8,6 +8,13 @@ table, thead, th, td, tr {
     border: 2px solid $primary-color;
 }
 
+th {
+    color: $secondary-color;
+    text-align: center;
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+}
+
 tr {
     color: $text-color;
     font-family: $font-family;
