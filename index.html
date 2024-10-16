@@ -5,34 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Bootstrap Framework Demo</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="dist/custom-css-framework.css">
-   
 </head>
 
 <body>
 
     <header class="site-header">
         <div class="container">
-            <h1 class="site-header__title text-center">Supercharge Your CSS with Sass</h1>
+            <h1 class="site-header__title text-center m-3">Supercharge Your CSS with Sass</h1>
         </div>
     </header>
 
-    <div class="section section-cta">
+    <div class="section section-cta mb-4">
         <div class="container text-center">
             <div class="cta">
                 <h2 class="cta__heading">Are You Ready to Make Your Dreams a Reality?</h2>
                 <p class="cta__subtext">Boost your website coding with our Custom CSS Framework</p>
-                <a class="cta__button btn btn-primary" href="#">Access the Framework</a> <!-- Bootstrap button -->
+                <a class="cta__button btn btn-primary custom-button m-2" href="#">Access the Framework</a>
             </div>
         </div>
     </div>
 
-    <div class="section section-cards">
+    <div class="section section-cards mb-4">
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                     <div class="card">
                         <div class="card-header">Card 1</div>
                         <div class="card-body">
@@ -41,7 +40,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                     <div class="card">
                         <div class="card-header">Card 2</div>
                         <div class="card-body">
@@ -50,7 +49,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                     <div class="card">
                         <div class="card-header">Card 3</div>
                         <div class="card-body">
@@ -63,17 +62,17 @@
         </div>
     </div>
 
-    <div class="section section-lists">
+    <div class="section section-lists mb-4">
         <div class="container">
             <h2 class="text-center">Our Offerings</h2>
-            <h3>Features We Offer:</h3>
-            <ul class="list-unstyled">
+            <h3 class="m-3">Features We Offer:</h3>
+            <ul class="list-unstyled mb-4">
                 <li>Web Development</li>
                 <li>Graphic Design</li>
                 <li>SEO Optimization</li>
                 <li>Content Creation</li>
             </ul>
-            <h3>Getting Started Steps:</h3>
+            <h3 class="m-3">Getting Started Steps:</h3>
             <ol>
                 <li>Sign Up</li>
                 <li>Choose a Plan</li>
@@ -82,11 +81,11 @@
             </ol>
         </div>
     </div>
-
-    <div class="section section-table">
+    
+    <div class="section section-table m-4">
         <div class="container">
-            <h2 class="text-center">Our Pricing Plans</h2>
-            <table class="table">
+            <h2 class="text-center m-4">Our Pricing Plans</h2>
+            <table class="table mb-4">
                 <thead>
                     <tr>
                         <th>Plan</th>
@@ -114,28 +113,48 @@
             </table>
         </div>
     </div>
-
-    <div class="section section-newsletter">
-        <div class="container text-center">
-            <div class="newsletter">
-                <h2 class="newsletter__heading">Sign Up for Our Email Newsletter</h2>
-                <form action="/" class="newsletter__form">
-                    <input type="text" class="newsletter__input form-control mb-2" placeholder="Enter your email" required>
-                    <button class="newsletter__button btn btn-primary" type="submit">Subscribe</button> <!-- Bootstrap button -->
-                </form>
-            </div>
+    
+    <div class="section section-contact mb-4">
+        <div class="container">
+            <h2 class="text-center m-4">Get in Touch with Us</h2>
+            <form action="/" method="POST" class="contact-form">
+                <div class="form-group mb-3">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control custom-input mb-4" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control custom-input mb-4" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="message">Message</label>
+                    <textarea class="form-control custom-textarea mb-4" id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary custom-button m-2">Send Message</button>
+            </form>
         </div>
     </div>
 
     <footer class="site-footer">
         <div class="container">
+            <div class="section section-newsletter mb-4">
+                <div class="container text-center">
+                    <div class="newsletter">
+                        <h2 class="newsletter__heading mb-3">Sign Up for Our Email Newsletter</h2>
+                        <form action="/" class="newsletter__form">
+                            <input type="text" class="newsletter__input form-control mb-3" placeholder="Enter your email" required>
+                            <button class="newsletter__button btn btn-primary custom-button" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <p class="site-footer__copyright text-center">Created by Group 4, Web Development IV, 2024</p>
         </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Link to Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -4,12 +4,7 @@
 .text-secondary {
   color: $secondary-color;
 }
-.bg-primary {
-    background-color: $primary-color;
-  }
-.bg-secondary {
-    background-color: $secondary-color;
-  }
+
 
 
 .fw-bold {
@@ -26,22 +21,41 @@
   }
 
 
-.m-1 {
-    margin: calc(0.5 * $margin-base); 
-  }
-  
-.m-2 {
+  .m-1 {
     margin: calc(1 * $margin-base); 
   }
-  
-.p-1 {
-    padding: calc(0.5 * $margin-base); 
+  .m-2 {
+    margin: calc(2 * $margin-base); 
   }
-  
-.p-2 {
-    padding: calc(1 * $margin-base); 
+  .m-3 {
+    margin: calc(3 * $margin-base);  
+  }
+  .m-4 {
+    margin: calc(4 * $margin-base);  
   }
 
+  .mb-1 {
+    margin-bottom: calc(1 * $margin-base); 
+  }
+  .mb-2 {
+    margin-bottom: calc(2 * $margin-base); 
+  }
+  .mb-3 {
+    margin-bottom: calc(3 * $margin-base);  
+  }
+  .mb-4 {
+    margin-bottom: calc(4 * $margin-base);  
+  }
+
+  .p-1 {
+    padding: calc(1 * $padding-base);  
+  }
+  .p-2 {
+    padding: calc(2 * $padding-base);  
+  }
+  .p-3 {
+    padding: calc(3 * $padding-base); 
+  }
 
 .border-rounded {
     border-radius: $border-radius;
