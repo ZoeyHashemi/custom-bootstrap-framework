@@ -83,6 +83,27 @@ h3 {
   line-height: 1.4;
 }
 
+button, .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #84A98C;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover, .btn:hover {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: #679370;
+}
+
 .custom-input[type=text], select, textarea {
   width: 100%;
   padding: 10px;
@@ -95,7 +116,7 @@ h3 {
 
 .custom-button[type=submit] {
   background-color: #84A98C;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 246, 246);
   padding: 15px 32px;
   border: none;
   border-radius: 4px;
@@ -135,6 +156,13 @@ table {
 
 table, thead, th, td, tr {
   border: 2px solid #CAD2C5;
+}
+
+th {
+  color: #84A98C;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 tr {
@@ -208,38 +236,6 @@ tr {
   border: 2px solid #84A98C;
 }
 
-.m-1 {
-  margin: 0.5rem;
-}
-
-.m-2 {
-  margin: 1rem;
-}
-
-.m-3 {
-  margin: 1.5rem;
-}
-
-.m-4 {
-  margin: 2rem;
-}
-
-.p-1 {
-  padding: 0.5rem;
-}
-
-.p-2 {
-  padding: 1rem;
-}
-
-.p-3 {
-  padding: 1.5rem;
-}
-
-.p-4 {
-  padding: 2rem;
-}
-
 body {
   background-color: #ecf0ed;
 }
@@ -253,7 +249,13 @@ body {
 .cta {
   margin: 30px 0;
   padding: 20px;
-  background-color: #52796F;
+  background-color: #CAD2C5;
+}
+
+.custom-heading {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #CAD2C5;
 }
 
 .site-footer {
@@ -265,4 +267,5 @@ body {
 }
 .site-footer .newsletter__heading {
   color: #ecf0ed;
+  padding: 20px;
 }/*# sourceMappingURL=custom-css-framework.css.map */

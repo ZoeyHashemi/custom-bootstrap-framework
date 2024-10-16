@@ -5,7 +5,7 @@ $input-border-radius: 4px;
 $input-padding: 10px;
 $button-background-color: #61d665;
 $button-border: none;
-$button-color: rgb(0, 0, 0);
+$button-color: rgb(255, 246, 246);
 $button-padding: 15px 32px;
 $button-text-align: center;
 $button-text-decoration: none;
@@ -34,7 +34,6 @@ $button-cursor: pointer;
   margin-bottom: 20px;
   cursor: $button-cursor;
   &:hover {
-     // Color for  hovering  buttons
 background-color:$accent-color ;
   }
 }
