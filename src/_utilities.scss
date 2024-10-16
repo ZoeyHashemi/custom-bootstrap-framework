@@ -69,3 +69,38 @@
 .border-secondary {
     border: 2px solid $secondary-color;
   }
+
+// Margins
+.m-1 {
+    margin: calc(0.5 * $margin-base);
+}
+
+.m-2 {
+    margin: calc(1 * $margin-base);
+}
+
+.m-3 {
+    margin: calc(1.5 * $margin-base);
+}
+
+.m-4 {
+    margin: calc(2 * $margin-base);
+}
+
+// Paddings
+.p-1 {
+    padding: calc(0.5 * $padding-base);
+}
+
+.p-2 {
+    padding: calc(1 * $padding-base);
+}
+
+.p-3 {
+    padding: calc(1.5 * $padding-base);
+}
+
+.p-4 {
+    padding: calc(2 * $padding-base);
+}
+
