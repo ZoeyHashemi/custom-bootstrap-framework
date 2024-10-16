@@ -1,0 +1,23 @@
+body {
+  background-color: #ecf0ed;
+}
+
+.site-header {
+  padding: 10px 0;
+  background-color: #84A98C;
+  color: rgba(255, 254, 254, 0.93);
+}
+
+.cta {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #52796F;
+}
+
+.site-footer {
+  background-color: #2F3E46;
+  padding: 20px 0;
+}
+.site-footer__copyright {
+  color: #ecf0ed;
+}/*# sourceMappingURL=custom-css-framework.css.map */
