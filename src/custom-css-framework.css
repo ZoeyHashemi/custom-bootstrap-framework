@@ -1,3 +1,62 @@
+/* reset.scss */
+/* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font styles */
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+}
+
+/* Reset heading styles */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Reset list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Reset table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Reset image styles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Reset link styles */
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}
+
+/* Reset button styles */
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Reset form elements */
+input, textarea, select {
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
 body, p {
   font-family: "Times New Roman", Times, serif;
   font-size: 1em;
@@ -22,6 +81,29 @@ h3 {
   font-size: 1.3em;
   font-weight: 500;
   line-height: 1.4;
+}
+
+.custom-input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #75c2de;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.custom-button[type=submit] {
+  background-color: #84A98C;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.custom-button[type=submit]:hover {
+  background-color: #52796F;
 }
 
 ul {
@@ -62,6 +144,102 @@ tr {
   font-weight: 400;
 }
 
+.text-primary {
+  color: #CAD2C5;
+}
+
+.text-secondary {
+  color: #84A98C;
+}
+
+.bg-primary {
+  background-color: #CAD2C5;
+}
+
+.bg-secondary {
+  background-color: #84A98C;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.fs-large {
+  font-size: 1.5rem;
+}
+
+.fs-small {
+  font-size: 0.875rem;
+}
+
+.m-1 {
+  margin: 0.5rem;
+}
+
+.m-2 {
+  margin: 1rem;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.border-rounded {
+  border-radius: 4px;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-primary {
+  border: 2px solid #CAD2C5;
+}
+
+.border-secondary {
+  border: 2px solid #84A98C;
+}
+
+.m-1 {
+  margin: 0.5rem;
+}
+
+.m-2 {
+  margin: 1rem;
+}
+
+.m-3 {
+  margin: 1.5rem;
+}
+
+.m-4 {
+  margin: 2rem;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.p-3 {
+  padding: 1.5rem;
+}
+
+.p-4 {
+  padding: 2rem;
+}
+
 body {
   background-color: #ecf0ed;
 }
@@ -83,5 +261,8 @@ body {
   padding: 20px 0;
 }
 .site-footer__copyright {
+  color: #ecf0ed;
+}
+.site-footer .newsletter__heading {
   color: #ecf0ed;
 }/*# sourceMappingURL=custom-css-framework.css.map */

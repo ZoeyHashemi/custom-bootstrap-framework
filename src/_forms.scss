@@ -15,7 +15,7 @@ $button-margin: 4px 2px;
 $button-cursor: pointer;
 
 // Apply styles
-input[type=text], select, textarea {
+.custom-input[type=text], select, textarea {
   width: 100%;
   padding: $input-padding;
   border: $input-border;
@@ -25,15 +25,17 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
 }
 
-input[type=submit] {
-  background-color: $button-background-color;
+.custom-button[type=submit] {
+  background-color: $secondary-color ;
   color: $button-color;
   padding: $button-padding;
   border: $button-border;
   border-radius: $input-border-radius;
+  margin-bottom: 20px;
   cursor: $button-cursor;
+  &:hover {
+     // Color for  hovering  buttons
+background-color:$accent-color ;
+  }
 }
 
-input[type=submit]:hover {
-  background-color: darken($button-background-color, 20%);
-}

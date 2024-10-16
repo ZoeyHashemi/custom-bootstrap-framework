@@ -7,8 +7,7 @@
     <title>Custom Bootstrap Framework Demo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="dist/custom-css-framework.css">
-   <link rel="stylesheet"  href="src/custom-css-framework.scss">
-   
+    
 </head>
 
 <body>
@@ -24,7 +23,7 @@
             <div class="cta">
                 <h2 class="cta__heading">Are You Ready to Make Your Dreams a Reality?</h2>
                 <p class="cta__subtext">Boost your website coding with our Custom CSS Framework</p>
-                <a class="cta__button btn btn-primary" href="#">Access the Framework</a> <!-- Bootstrap button -->
+                <a class="cta__button btn btn-primary custom-button" href="#">Access the Framework</a> <!-- Bootstrap button -->
             </div>
         </div>
     </div>
@@ -64,6 +63,7 @@
         </div>
     </div>
 
+   <!-- Services -->
     <div class="section section-lists">
         <div class="container">
             <h2 class="text-center">Our Offerings</h2>
@@ -83,7 +83,7 @@
             </ol>
         </div>
     </div>
-
+    <!-- Pricing tables  -->
     <div class="section section-table">
         <div class="container">
             <h2 class="text-center">Our Pricing Plans</h2>
@@ -116,20 +116,43 @@
         </div>
     </div>
 
-    <div class="section section-newsletter">
-        <div class="container text-center">
-            <div class="newsletter">
-                <h2 class="newsletter__heading">Sign Up for Our Email Newsletter</h2>
-                <form action="/" class="newsletter__form">
-                    <input type="text" class="newsletter__input form-control mb-2" placeholder="Enter your email" required>
-                    <button class="newsletter__button btn btn-primary" type="submit">Subscribe</button> <!-- Bootstrap button -->
-                </form>
+    
+ <!-- Contact Form Section -->
+<div class="section section-contact">
+    <div class="container">
+        <h2 class="text-center">Get in Touch with Us</h2>
+        <form action="/" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control custom-input" id="name" name="name" placeholder="Enter your name" required>
             </div>
-        </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control custom-input" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control custom-textarea" id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary custom-button">Send Message</button>
+        </form>
     </div>
+</div>
 
+   <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
+            <div class="section section-newsletter">
+                <div class="container text-center">
+                    <div class="newsletter">
+                        <h2 class="newsletter__heading">Sign Up for Our Email Newsletter</h2>
+                        <form action="/" class="newsletter__form">
+                            <input type="text" class="newsletter__input form-control mb-2" placeholder="Enter your email" required>
+                            <button class="newsletter__button btn btn-primary custom-button" type="submit">Subscribe</button> <!-- Bootstrap button -->
+                        </form>
+                    </div>
+                </div>
+            </div>
             <p class="site-footer__copyright text-center">Created by Group 4, Web Development IV, 2024</p>
         </div>
     </footer>
