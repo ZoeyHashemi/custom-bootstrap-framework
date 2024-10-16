@@ -24,6 +24,44 @@ h3 {
   line-height: 1.4;
 }
 
+ul {
+  list-style-type: circle;
+  list-style-position: outside;
+  margin: 1rem;
+  padding: 1rem;
+  color: #354F52;
+  font-family: "Times New Roman";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ol {
+  list-style-type: upper-roman;
+  margin: 1rem;
+  padding: 1rem;
+  color: #354F52;
+  font-family: "Times New Roman";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+table, thead, th, td, tr {
+  border: 2px solid #CAD2C5;
+}
+
+tr {
+  color: #354F52;
+  font-family: "Times New Roman";
+  font-size: 16px;
+  font-weight: 400;
+}
+
 body {
   background-color: #ecf0ed;
 }
