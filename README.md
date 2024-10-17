@@ -53,7 +53,38 @@ You can utilize StylishScaffolding by applying the provided classes to your HTML
 </form>
 
 ## Customization
+StylishScaffolding is highly customizable. You can easily adjust the look and feel of your site by overriding default Sass variables. Here’s how to customize the framework:
+
+Open the _variables.scss file in the src folder.
+
+Modify the values of the variables to fit your project’s design needs. Here are a few variables you can change:
+
+Colors:
+$primary-color: #CAD2C5;      // Primary theme color
+$secondary-color: #84A98C;    // Secondary theme color- use for buttons
+$background-color: #ecf0ed;  // Background color for the body
+$accent-color: #52796F;      // Color for  hovering  buttons
+$text-color: #354F52;        // Default text color
+$footer-color: #2F3E46;  //Background color for the footnote
+
+Typography:
+$font-family-default: "Times New Roman", Times, serif;
+$font-size-body: 1em;
+$font-size-h1: 2em;
+$font-size-h2: 1.5em;
+$font-size-h3: 1.3em;
+$font-weight-h1: 700;
+$font-weight-h2: 600;
+$font-weight-h3: 500;
+$line-height-h1: 1.2;
+$line-height-h2: 1.3;
+$line-height-h3: 1.4;
+
+Spacing:
+
+$padding-base: 1rem;                 // Default padding
+$margin-base: 1rem;                  // Default margin
 
 
-
+Recompile the SCSS to generate customized CSS file: with Live Sass compiler
 
