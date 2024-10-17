@@ -1,28 +1,15 @@
-//Import Reset
+
 @import 'reset';
-
-// Import Variables
 @import 'variables';
-
-// Import Typography - cminosora
-@import 'typography';
- // Import buttons
-@import 'buttons';
-
-//Import Forms
-@import 'forms';
-
-// Import Mixins
 @import 'mixins';
-
-//Import lists
+@import 'utilities';
+@import 'typography';
+@import 'buttons';
+@import 'forms';
 @import 'lists';
-
-//Import tables
 @import 'tables';
 
-//Import Utilities
-@import 'utilities';
+
 
 // Custom styles
 body {
@@ -40,6 +27,18 @@ body {
     margin: 30px 0;
     padding: 20px;
     background-color:$accent-color;
+    &__heading{
+        color: $background-color;
+    }
+    &__subtext{
+        color: $background-color;
+    }
+}
+.custom-h2{
+    background-color: $secondary-color;
+    color: $background-color;
+    margin: 20px;
+    padding: 20px;
 }
 .site-footer {
     background-color: $footer-color;
